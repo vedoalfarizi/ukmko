@@ -1,0 +1,190 @@
+.login-page,
+.register-page{
+    background:#F8EFBA
+}
+
+.login-box,
+.register-box{
+    width:360px;margin:7% auto
+}
+@media (max-width:768px){
+    .login-box,
+    .register-box{
+        width:90%;
+        margin-top:20px
+    }
+}
+
+.login-box-body,
+.register-box-body{
+    background:#F8EFBA;
+    padding:20px;
+    border-top:0;
+    color:#666
+}
+.login-box-body
+.form-control-feedback,
+.register-box-body
+.form-control-feedback{
+    color:#777
+}
+
+.login-box-msg,
+.register-box-msg{
+    margin:0;
+    text-align:center;
+    padding:0 20px 40px 20px
+}
+
+.login-logo,
+.register-logo{
+    font-size:16px;
+    text-align:center;
+    font-weight:300;
+    padding-top: 60px;
+}
+
+.login-logo a,
+.register-logo a{
+    color:#444
+}
+
+.login-box-msg i,
+.register-box-msg i{
+    font-size:30px;
+    font-weight:300
+}
+
+.btn{
+    border-radius:25px;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    border:1px solid transparent
+}
+.btn.uppercase{
+    text-transform:uppercase
+}
+
+.btn:active{
+    -webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,0.125);
+    -moz-box-shadow:inset 0 3px 5px rgba(0,0,0,0.125);
+    box-shadow:inset 0 3px 5px rgba(0,0,0,0.125)
+}
+
+.btn:focus{
+    outline:none
+}
+
+.btn-login{
+    text-align:center;
+}
+
+.btn-primary{
+    background-color:#2C3A47;
+    border-color:#2C3A47
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.hover{
+    background-color:#2C3A47
+}
+
+.form-control{
+    border-radius:0;
+    box-shadow:none;
+    border-color: transparent;
+    border-bottom-color: #CAD3C8;
+    background-color: transparent;
+}
+
+.form-control:focus{
+    border-color:transparent;
+    border-bottom-color: #000000;
+    box-shadow:none
+}
+
+.form-control::-moz-placeholder,
+.form-control:-ms-input-placeholder,
+.form-control::-webkit-input-placeholder{
+    color:#bbb;opacity:1
+}
+
+.form-control:not(select){
+    -webkit-appearance:none;
+    -moz-appearance:none;appearance:none
+}
+
+.form-group.has-success label{
+    color:#00a65a
+}
+
+.form-group.has-success .form-control,
+.form-group.has-success .input-group-addon{
+    border-color:transparent;
+    border-bottom-color: #00a65a;
+    box-shadow:none
+}
+
+.form-group.has-success .help-block{
+    color:#00a65a
+}
+
+.form-group.has-warning label{
+    color:#f39c12
+}
+
+.form-group.has-warning .form-control,
+.form-group.has-warning .input-group-addon{
+    border-color:transparent;
+    border-bottom-color: #f39c12;
+    box-shadow:none
+}
+
+.form-group.has-warning .help-block{
+    color:#f39c12
+}
+
+.form-group.has-error label{
+    color:#dd4b39
+}
+
+.form-group.has-error .form-control,
+.form-group.has-error .input-group-addon{
+    border-color:transparent;
+    border-bottom-color: #dd4b39;
+    box-shadow:none
+}
+
+.form-group.has-error .help-block{
+    color:#dd4b39
+}
+.input-group .input-group-addon{
+    border-color:transparent;
+    border-bottom-color: #dd4b39;
+    background-color:#fff
+}
+
+.btn-group-vertical .btn.btn-flat:first-of-type,
+.btn-group-vertical .btn.btn-flat:last-of-type{
+    border-radius:0
+}
+
+.icheck>label{
+    padding-left:0
+}
+
+.form-control-feedback.fa{
+    line-height:34px
+}
+
+.input-lg+.form-control-feedback.fa,
+.input-group-lg+.form-control-feedback.fa,
+.form-group-lg .form-control+.form-control-feedback.fa{
+    line-height:46px
+}
+
+.input-sm+.form-control-feedback.fa,
+.input-group-sm+.form-control-feedback.fa,
+.form-group-sm .form-control+.form-control-feedback.fa{
+    line-height:30px
+}
